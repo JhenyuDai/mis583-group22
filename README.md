@@ -67,12 +67,12 @@
 
 本專案的所有實作邏輯(含install程式碼)均整合於 Jupyter Notebook 中。
 
-   **執行訓練:**
-    開啟 `mis583_group22.ipynb`，該 Notebook 包含完整的 End-to-End 流程：
-    * **資料預處理:** 定義 Transform 與 DataLoader。
-    * **模型建構:** 包含 `get_base_model()` 與自定義的 `CNNWithCBAM` 類別。
-    * **訓練迴圈:** 包含 RAdam 優化器與驗證機制。
-    * **視覺化:** 執行 Grad-CAM 程式碼區塊以生成熱力圖。
+**執行訓練:**
+開啟 `mis583_group22.ipynb`，該 Notebook 包含完整的 End-to-End 流程：
+* **資料預處理:** 定義 Transform 與 DataLoader。
+* **模型建構:** 包含 `get_base_model()` 與自定義的 `CNNWithCBAM` 類別。
+* **訓練迴圈:** 包含 RAdam 優化器與驗證機制。
+* **視覺化:** 執行 Grad-CAM 程式碼區塊以生成熱力圖。
 
 ---
 
@@ -89,6 +89,5 @@
 
 ## 參考文獻 (References)
 1.  Kaggle Competition: [2025 Iyatomi Lab. Competition](https://www.kaggle.com/competitions/2025-iyatomi-lab-competition/overview)
-2.  Dosovitskiy, A., et al. "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale." ICLR 2021.
-3.  Woo, S., et al. "CBAM: Convolutional Block Attention Module." ECCV 2018.
-4.  Selvaraju, R. R., et al. "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization." ICCV 2017.
+2.  vit-b_16: [vit_b_16](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.vit_b_16.html)
+
