@@ -69,8 +69,8 @@
 
 **執行訓練:**
 開啟 `mis583_group22.ipynb`，該 Notebook 包含完整的 End-to-End 流程：
-* **資料預處理:** 定義 Transform 與 DataLoader。
-* **模型建構:** 包含 `get_base_model()` 與自定義的 `CNNWithCBAM` 類別。
+* **資料預處理:** 定義 Normalization 與 DataLoader。
+* **模型建構:** 包含 `get_base_model()` 、`get_advanced_model()`與自定義的 `CNNWithCBAM` 類別(Attention)。
 * **訓練迴圈:** 包含 RAdam 優化器與驗證機制。
 * **視覺化:** 執行 Grad-CAM 程式碼區塊以生成熱力圖。
 
