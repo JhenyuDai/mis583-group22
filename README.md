@@ -58,7 +58,7 @@
 
 | 成功案例 (Success) | 失敗/多目標案例 (Failure) |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/da2c6af8-0e62-4ec4-a968-76fac1b5a148" width="300"> | <img src="https://github.com/user-attachments/assets/placeholder_fail.jpg" width="300"> |
+| <img src="https://github.com/user-attachments/assets/da2c6af8-0e62-4ec4-a968-76fac1b5a148" width="300"> | <img src="https://github.com/user-attachments/assets/437d525e-2c5b-4b72-a430-b89d7a7243f4" width="300"> |
 | **分析:** 模型準確地將注意力集中在犬隻的**頭部與五官**，這是區分品種的最關鍵區域 。 | **分析:** 當畫面中有多隻狗或背景複雜時，模型的注意力有時會分散，甚至錯誤關注到背景草地，導致預測信心下降。 |
 
 ---
