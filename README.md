@@ -65,14 +65,9 @@
 
 ## 如何執行 (How to Run)
 
-本專案的所有實作邏輯均整合於 Jupyter Notebook 中。
+本專案的所有實作邏輯(含install程式碼)均整合於 Jupyter Notebook 中。
 
-1.  **環境需求 (Requirements):**
-    ```bash
-    pip install torch torchvision grad-cam pandas opencv-python matplotlib
-    ```
-
-2.  **執行訓練:**
+   **執行訓練:**
     開啟 `mis583_group22.ipynb`，該 Notebook 包含完整的 End-to-End 流程：
     * **資料預處理:** 定義 Transform 與 DataLoader。
     * **模型建構:** 包含 `get_base_model()` 與自定義的 `CNNWithCBAM` 類別。
